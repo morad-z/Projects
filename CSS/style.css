@@ -1,0 +1,757 @@
+/* WOODIES */
+* {
+    margin: 0%;
+}
+
+aside,
+footer,
+main,
+nav,
+section,
+article,
+header {
+    display: block;
+}
+
+header {
+    width: 100%;
+    top: 40px;
+    left: 40px;
+}
+
+.area1 {
+    /* Area1 */
+    position: absolute;
+    width: 100%;
+    height: 33px;
+
+}
+
+.area2 {
+    /* Area2 */
+
+
+    position: absolute;
+    width: 100%;
+    height: 555px;
+    left: 0px;
+    top: 123px;
+
+}
+
+.area3 {
+    /* Area3 */
+
+
+    position: absolute;
+    width: 100%;
+    height: 458px;
+    left: 40px;
+    top: 580px;
+
+}
+
+.area4 {
+    /* Area4 */
+
+
+    position: absolute;
+    width: 100%;
+    height: 328px;
+    left: 40px;
+    top: -400px;
+}
+
+.area5 {
+    /* Area5 */
+
+
+    position: absolute;
+    width: 100%px;
+    height: 205px;
+    left: 40px;
+    top: 1211px;
+
+}
+
+.area6 {
+    /* Area6 */
+
+
+    position: absolute;
+    width: 100%;
+    height: 572px;
+    left: 40px;
+    top: 1656px;
+
+}
+
+.area7 {
+    /* Area7 */
+
+
+    position: absolute;
+    width: 100%;
+    height: 301px;
+    left: 0px;
+    top: 1656px;
+
+}
+
+
+
+
+.logo-name {
+    position: absolute;
+    width: 154px;
+    height: 33px;
+    left: 78px;
+    top: 40px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 0.25em;
+
+    color: #3E3F43;
+}
+
+#logo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 40px;
+    top: 41px;
+}
+
+/* Bg */
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 555px;
+    left: 0px;
+    background: #F9BDBD;
+}
+
+.text {
+    /* Text */
+
+
+    position: absolute;
+    width: 448px;
+    height: 180px;
+    left: 506px;
+    top: 206px;
+
+}
+
+.bg-text {
+
+    position: absolute;
+    width: 448px;
+    height: 98px;
+    left: 506px;
+    top: 83px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #3E3F43;
+}
+
+.bg-2nd-text {
+
+
+
+    position: absolute;
+    width: 448px;
+    height: 66px;
+    left: 506px;
+    top: 197px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.bg-img {
+    /* Img */
+
+
+    position: absolute;
+    width: 426px;
+    height: 388px;
+    left: 40px;
+    top: 206px;
+
+}
+
+.bg-rectangle {
+
+    /* Rectangle 5 */
+
+    position: absolute;
+    border-radius: 0px 125px;
+    width: 278px;
+    height: 388px;
+    left: 40px;
+    top: 83px;
+
+    background: #F7DEA6;
+}
+
+.bg-photo {
+
+
+
+    position: absolute;
+    width: 388px;
+    height: 306px;
+    left: 78px;
+    top: 165px;
+
+    background-image: url(../images/image1.png);
+}
+
+.about {
+
+    /* About */
+
+    position: absolute;
+    width: 89px;
+    height: 40px;
+    left: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+
+
+    color: #000000;
+}
+
+.about-text {
+    /* Text */
+
+    position: absolute;
+    left: 3.33%;
+    right: 34.92%;
+    top: 13%;
+    bottom: 61.33%;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    /* or 28px */
+
+    text-align: justify;
+
+    color: #000000;
+}
+
+.exercises {
+    /* Exercises */
+
+
+    position: absolute;
+    width: 140px;
+    height: 328px;
+    left: 40px;
+    top: 1243px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+
+
+    color: #000000;
+}
+
+
+
+.exercises-img {
+    /* image */
+
+
+    position: absolute;
+    visibility: hidden;
+    left: -1.25%;
+    right: -1.25%;
+    top: -12.5%;
+    bottom: -17.5%;
+
+    background: url(../images/avatar.png);
+}
+
+.exercises-txt {
+
+
+    position: absolute;
+    width: 77px;
+    height: 24px;
+    left: calc(50% - 77px/2 - 37.5px);
+    top: 128px;
+
+    /* Product - H5 ∙ 16|24 / Medium */
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.cards1 {
+    /* Cards/User/Mini Profile 1 */
+
+
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 40px;
+    top: 1307px;
+    ;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.cards2 {
+    /* Cards/User/Mini Profile 2 */
+
+
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 264px;
+    top: 1307px;
+    ;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.cards3 {
+    /* Cards/User/Mini Profile 3 */
+
+
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 488px;
+    top: 1307px;
+    ;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.cards4 {
+    /* Cards/User/Mini Profile 4 */
+
+
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 712px;
+    top: 1307px;
+    ;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.cards5 {
+    /* Cards/User/Mini Profile 5 */
+
+
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 936px;
+    top: 1307px;
+    ;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+
+.exercises-bg1 {
+    /* bg */
+
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 40px 40px;
+    background: #FDEDE5;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+.exercises-bg2 {
+    /* bg */
+
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 40px 40px;
+    background: #EBF1FF;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+.exercises-bg3 {
+    /* bg */
+
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 40px 40px;
+    background: #EBFFEC;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+.exercises-bg4 {
+    /* bg */
+
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 40px 40px;
+    background: #FFEBFC;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+.exercises-bg5 {
+    /* bg */
+
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 40px 40px;
+    background: #FFFEEB;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+.exercise-person {
+
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: calc(50% - 80px/2 - 36px);
+    top: 24px;
+
+}
+
+.exercise-mask {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+    border: 1px solid #D7DFE9;
+    border-radius: 100px;
+    background-image: url(../images/avatar1.png);
+}
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #ffd8c4;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #ffd8c4;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+    width: 100%;
+    background: #fbdfd0;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active {
+    transform: scale(0.95);
+}
+
+.button-secondary {
+    position: absolute;
+    height: 40px;
+    left: 12%;
+    right: 28.21%;
+    bottom: 40px;
+
+    border-radius: 30px;
+}
+
+.programming-languages {
+    /* Programming Languages */
+
+
+    position: absolute;
+    width: 364px;
+    height: 40px;
+    left: 40px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+
+
+    color: #000000;
+}
+
+.list {
+    position: absolute;
+    left: 3.33%;
+    right: 66.33%;
+    top: 45.83%;
+    bottom: 39.47%;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    /* or 28px */
+
+    text-align: justify;
+
+    color: #000000;
+}
+
+.your-choice {
+    /* Your choice */
+
+
+    position: absolute;
+    width: 169px;
+    height: 40px;
+    left: 40px;
+    top: 1856px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+
+
+    color: #000000;
+}
+
+.your-choice-bg {
+    /* Bg */
+
+
+    position: absolute;
+    width: 1120px;
+    height: 508px;
+    left: 40px;
+    top: 1920px;
+
+    background: #F9BDBD;
+}
+
+.footer-bg {
+    /* img */
+
+
+    position: absolute;
+    width: 100%;
+    height: 301px;
+    left: 1200px;
+    top: 2699px;
+
+    background: url(pexels-photo-509922.jpg);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.bg-footer {
+    position: absolute;
+    width: 100%;
+    height: 301px;
+    left: 0px;
+    background: #eeeeee;
+}
+
+.footer-follow-us {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 40px;
+    top: 32px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.footer-fc {
+    /* Facebook */
+
+
+    position: absolute;
+    width: 60px;
+    height: 19px;
+    left: 40px;
+    top: 73px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #8D8D8D;
+}
+
+.footer-ig {
+    /* Instagram */
+
+
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    left: 40px;
+    top: 108px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #8D8D8D;
+}
+
+.footer-li {
+    /* linkedin*/
+
+
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    left: 40px;
+    top: 143px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #8D8D8D;
+}
+
+.copyright {
+    /* © 2023 Morad Zubidat */
+
+
+    position: absolute;
+    width: 200px;
+    height: 17.65px;
+    left: 40px;
+    top: 232px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #8D8D8D;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+}
