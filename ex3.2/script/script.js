@@ -17,16 +17,16 @@ function addSquares() {
     squares.push(square);
     size += 20;
   }
-  squaresAdded += 3;
-  for (let i = 0; i < squares.length; i++) {
-    container.appendChild(squares[i]);
-    squares[i].addEventListener("click", handleSquareClick);
-  }
-  let clickLimit = 2;
+  let clickLimit = 3;
   if (ClickCount >= clickLimit) {
     alert("You can only click this button 3 times.");
     return false;
   } else {
+    squaresAdded += 3;
+    for (let i = 0; i < squares.length; i++) {
+      container.appendChild(squares[i]);
+      squares[i].addEventListener("click", handleSquareClick);
+    }
     ClickCount++;
     return true;
   }
