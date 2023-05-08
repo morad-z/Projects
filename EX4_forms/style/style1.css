@@ -1,0 +1,21 @@
+.frame1{
+display: flex;
+position: absolute;
+justify-content: space-around;
+width: 469px;
+height: 69px;
+left: 485px;
+top: 155px;
+
+}
+
+.frame2{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+width: 602px;
+height: 249px;
+left: 406px;
+top: 246px;
+
+}

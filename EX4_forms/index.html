@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Death Note</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link href="https://fonts.cdnfonts.com/css/death-note-font" rel="stylesheet" />
+  <link rel="icon" type="image/gif" href="images/notebook_adobe_express.svg" />
+</head>
+
+<body>
+  <div id="container">
+    <p id="main-text">Whom May Die?</p>
+    <div class="buttons">
+      <button id="button1" type="button" onclick="hideContainer();">My Enemy</button>
+      <button id="button2" type="button" onclick="jumpscare();">Me!</button>
+    </div>
+  </div>
+  <div id="new-content" class="new-content hidden">
+    <!-- ---------------------------form------------------------------------------------ -->
+    <div class="card">
+      <div class="imgBx">
+        <img src="images/death-note.webp" alt="" />
+        <div class="bat-main">
+          <div class="bat-container bat-cone">
+            <div class="bat"><span></span></div>
+          </div>
+          <div class="bat-container bat-ctwo">
+            <div class="bat"><span></span></div>
+          </div>
+          <div class="bat-container bat-cthird">
+            <div class="bat"><span></span></div>
+          </div>
+          <div class="bat-container bat-cfour">
+            <div class="bat"><span></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h1 style="margin: 0; margin-bottom: 10px; font-size: 20px">
+          Death Note
+        </h1>
+        <form action="http://se.shenkar.ac.il/teach/web1/2021/get_form3.php" onsubmit="return validateForm()"
+          method="get">
+          <div class="form-entity">
+            <label for="name">His Name:</label>
+            <input class="form-control" id="fullName" type="text" name="fullName" pattern="[a-zA-Z]+\s?[a-zA-Z]+$"
+              required />
+          </div>
+          <div class="form-entity">
+            <label for="pass">Reason:</label>
+            <input class="form-control" id="pass" type="password" name="pass" pattern="?=.*[A-Z]" required />
+          </div>
+          <div class="form-entity">
+            <label for="email">Email :</label>
+            <input class="form-control" id="email" type="email" name="mail" />
+          </div>
+          <div class="form-entity">
+            <label for="website">Url :</label>
+            <input class="form-control" type="url" id="website" name="website" />
+          </div>
+          <div class="form-entity">
+            <label for="phone">His Number:</label>
+            <input class="form-control" type="tel" id="phone" name="phone" pattern="[0-9]+" maxlength="10"
+              minlength="9" />
+          </div>
+          <div class="form-entity">
+            <label for="cofee">insults</label>
+            <input class="form-control" id="cofee" type="number" name="coffee" min="0"/>
+          </div>
+          <div class="form-entity">
+            <label for="temper"> tourture Level :</label>
+            <input type="range" id="temper" name="temper" />
+          </div>
+          <div class="form-entity">
+            <label for="address">Address :</label>
+            <textarea name="address" id="address" rows="1" cols="20" name="address"></textarea>
+          </div>
+          <div class="form-checkboxes">
+            <div class="checkbox-entity">
+              <input type="checkbox" id="Pictures" name="interests[]" value="Pictures" />
+              <label for="Pictures">Pictures</label>
+            </div>
+            <div class="checkbox-entity">
+              <input type="checkbox" id="Video" name="interests[]" value="Video" />
+              <label for="Video">Video</label>
+            </div>
+            <div class="checkbox-entity">
+              <input type="checkbox" id="Voice" name="interests[]" value="Voice" />
+              <label for="Voice">Voice</label>
+            </div>
+          </div>
+          <div class="form-radios form-checkboxes">
+            <label for="gender">Gender:</label>
+            <input id="female" type="radio" name="gender" value="female" />
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+          </div>
+          <div class="form-entity">
+            <label>Style :</label>
+            <select name="children">
+              <option value="1">Send to Prison</option>
+              <option value="2" selected>Tourture only</option>
+              <option value="3">Tourture & Kill</option>
+              <option value="4">Set Free</option>
+            </select>
+          </div>
+          <div class="form-entity">
+            <label for="age">Age:</label>
+            <input class="form-control" type="number" id="age" name="age" min="23" max="38" required />
+          </div>
+          <div class="btn-div">
+            <button id="blood" type="submit">Submit</button>
+            <span id="drip-1"></span>
+            <span id="drip-2"></span>
+            <span id="drip-3"></span>
+            <span id="drip-4"></span>
+            <span id="drip-5"></span>
+            <span id="drip-6"></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------------------------------------------------------------------------------------------- -->
+  <img id="jumpscare" src="images/fnaf-jumpscare-icegif-5.gif" alt="" />
+  <audio id="scream" src="images/2021-09-24_-_Jump_Scare_D_-_www (mp3cut.net).mp3"></audio>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.cells.min.js"></script>
+  <script src="script/script.js"></script>
+</body>
+
+</html>
