@@ -1,0 +1,1103 @@
+.header {
+    position: absolute;
+    width: 100%;
+    height: 69px;
+    left: 0px;
+    top: 20px;
+  }
+
+  .logo {
+    background-image:url("../images/logo.jpg");
+    width:260px;
+    height:60px;
+  }
+  section.user{
+    position: absolute;
+    right: 20px;
+    margin: 20px;
+  }
+  .profileImage {
+    width: 50px;
+    height: 50px;
+    left: 100%;
+    border-radius: 50%;
+    margin-right: 0;
+  }
+  .elipse {
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    top: 12px;
+
+    background: #0057ff;
+  }
+  section.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .upload_spot {
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    top: 80px;
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  form.m-4{
+    background-color: transparent;
+  }
+  div.mb-3{
+    background-color: transparent;
+  }
+  label.form-label{
+        background-color: transparent;
+        
+  }
+.form-control1 {
+    background: rgba(161, 161, 161, 0.5);
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.466);
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.form {
+    position: absolute;
+    width: 300px;
+    height: 800px;
+    left: 40%;
+    top: 180px;
+    background: rgba(192, 192, 192, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+
+  .details {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    top: 150px;
+
+    font-family: "Bree Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+  }
+  .sticky-navbar {
+    display: none;
+  }
+
+  .sticky-navbar .nav-item {
+    display: none;
+
+  }
+
+  .sticky-navbar .nav-link {
+    display: none;
+  }
+
+@media screen and (max-width: 890px) {
+    .header {
+      position: absolute;
+      width: 100%;
+      height: 69px;
+      left: 0px;
+      top: 20px;
+    }
+  
+    .logo {
+      position: absolute;
+      width: 130px;
+      height: 30px;
+      left: 30px;
+      top: 30px;
+      background-image:url("../images/logo_mobile.jpg");
+    }
+    .profileImage {
+      width: 50px;
+      height: 50px;
+      left: 100%;
+      border-radius: 50%;
+      margin-right: 0;
+    }
+    section.user{
+        position: absolute;
+        width: 105px;
+        height: 38px;
+        right: 20px;
+        margin: 20px;
+      }
+    .elipse {
+      border-radius: 50%;
+      box-sizing: border-box;
+      position: absolute;
+      width: 16px;
+      height: 17px;
+      top: 12px;
+  
+      background: #0057ff;
+    }
+    .upload_spot {
+      position: absolute;
+      width: 221px;
+      height: 27px;
+      left: 30px;
+      top: 87px;
+      font-family: "Bree Serif";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 30px;
+      text-align: center;
+  
+      color: #000000;
+    }
+  
+    .details {
+      position: absolute;
+      width: 267px;
+      height: 22px;
+      left: 35px;
+      top: 146px;
+  
+      font-family: "Bree Serif";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+  
+      color: #000000;
+    }
+    .form-control1 {
+        background: rgba(161, 161, 161, 0.5);
+        width: 100%;
+        outline: 0;
+        border: 0;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.466);
+        padding-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+    }
+    .form {
+      position: absolute;
+      width: 90%;
+      height: 860px;
+      left: 23px;
+      top: 180px;
+      background: rgba(192, 192, 192, 0.3);
+      backdrop-filter: blur(10px);
+      border-radius: 30px;
+    }
+   
+    .sticky-navbar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #f8f9fa;
+      box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 9999;
+      display: block;
+    }
+  
+    .sticky-navbar .nav-item {
+      padding: 10px;
+      display: block;
+    }
+  
+    .sticky-navbar .nav-link {
+      color: #333;
+      font-weight: bold;
+      display: block;
+    }
+  }
+  main,header,section,article,aside,footer,nav,figure,figcaption{
+    display:block
+    
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.alertIcon{
+    margin-top: 35px;
+    height: 26px;
+    width: 26px;
+
+}
+#logoaaaaaa{
+    background-image:url("../images/logo.jpg");
+    width:260px;
+    height:60px;
+    display: block;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:90px;
+}
+
+#profileImage{
+    float:right;
+    margin-right:10px;
+    margin-top:10px;
+    width:100px;
+    height:100px;
+    border-radius:50%
+}
+
+main{
+    width: 100%;
+    /* display: flex;
+    flex-direction: row; */
+
+}
+
+.mainNav {
+    margin-left: 200px;
+  
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  h1{
+    font-family: 'Bree serif', serif;
+    font-size: 30px;
+    margin-left: 300px;
+    color: blue;
+    top: 130px;
+    position: absolute;
+  }
+  
+  .MainNavUl {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .mainNav li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mainNav a {
+    display: block;
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+  
+    font-size: 36px;
+  }  
+
+
+
+  .mainNav a:hover{
+    color: blue;
+  }
+
+#imageSection{
+    width:600px;
+    height:400px;
+    margin-top: 100px;
+    background-image: url("../images/parking_spot.jpg");
+    background-repeat: no-repeat;
+    justify-content:center;
+    align-items:center;
+    border-radius: 5%;
+    margin-right: 20px;
+
+}
+
+#textSection{
+    width:600px;
+    height:400px;
+    margin-top: 100px;
+    justify-content:center;
+    align-items:center;
+    border-radius: 5%;
+
+}
+
+.footer{
+    width:100%;
+    height:30px;
+    margin-bottom: 0px;
+}
+
+#floors{
+    color: blue;
+}
+
+#wrapper{
+    margin-bottom: 20px;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+#lowwerSection{
+    width:100%;
+    height: 100px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.bi-bi-box-arrow-left,.bi-bi-gear-fill{
+    margin-left: 50px;
+}
+
+#textSection span{
+    font-family: 'Bree Serif', serif;
+    font-size: 36px;
+    margin-right: 20px;
+}
+
+#textSection small{
+    font-family: 'Bree Serif', serif;
+    font-size: 24px;
+}
+
+#lowwerSection span{
+    font-family: 'Bree Serif', serif;
+    font-size: 26px;
+    
+    margin-left: 10px;
+}
+
+.bi-bi-pencil-fill,.bi-bi-trash,.bi-bi-eye,.bi-bi-plus-square{
+    margin-left: 50px;
+}
+.textt{
+display: none;
+}
+.redCircle{
+    margin-top: 30px;
+
+}
+section.userr{
+  position: absolute;
+  right: 20px;
+  margin: 10px;
+  display: flex;
+}
+.profileImage1{
+      
+  width: 40px;
+  height: 40px;
+left: 100%;
+  border-radius: 50%;
+  margin-right: 0;
+  display: flex;
+}
+@media screen and (max-width: 890px) {
+
+    section.userr{
+        display: flex;
+        
+    }
+
+    .alertIcon{
+        height: 26px;
+        width: 26px;
+    
+    }
+    #logoaaaaaa{
+        position: absolute;
+        width: 130px;
+        height: 30px;
+        left: 30px;
+        top: 30px;
+        background-image:url("../images/logo_mobile.jpg");
+    }
+    
+    .headerclass{
+        position: absolute;
+        width: 100%;
+        height: 69px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .profileImage1{
+      
+        width: 40px;
+        height: 40px;
+      left: 100%;
+        border-radius: 50%;
+        margin-right: 0;
+        display: flex;
+      }
+    .userr{
+        display: flex;
+        position: absolute;
+        width: 105px;
+        height: 38px;
+        right: 20px;
+        top: 30px;
+    }
+
+.textt{
+    position: absolute;
+width: 100%;
+height: 48px;
+left: 0px;
+top: 30px;
+display: flex;
+font-family: 'Bree Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+text-align: center;
+justify-content: space-around;
+color: #000000;
+}
+    .elipse1{
+        display: flex;
+
+        border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    top: 12px;
+    
+    background: #0057FF;
+    }
+    
+    .mainclass{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 85px;
+        
+    
+    }
+    
+    .mainNav {
+display: none;
+      
+      }
+      
+      h1{
+display: none;
+      }
+      
+      .MainNavUl {
+display: none;
+      }
+      
+      .mainNav li {
+        display: none;
+      }
+      
+      .mainNav a {
+display: none;
+      }  
+    
+    
+    
+      .mainNav a:hover{
+display: none;     
+ }
+    
+    #imageSection{
+        position: absolute;
+        width: 336px;
+        height: 200px;
+        left: 25px;
+        top: 40px;
+        display: flex;
+        background: url(../images/parking_spot.jpg);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 50px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    #textSection{
+        width: 100%;
+        height: 400px;
+        margin-top: 100px;
+        margin-left: 50px;
+
+        }
+ 
+    .footer{
+        position: absolute;
+        width: 100px;
+        height: 50px;
+margin-left: 30px;   
+     top: 750px;
+            }
+    
+    #floors{
+display: none;   
+ }
+    
+    #wrapper{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 85px;
+            }
+    
+    #lowwerSection{
+        display: none;
+
+    }
+    
+    .bi-bi-box-arrow-left,.bi-bi-gear-fill{
+        margin-left: 10px;
+    }
+    
+    #textSection span{
+        font-family: 'Bree Serif', serif;
+        font-size: 24px;
+        margin-right: 10px;
+    }
+    
+    #textSection small{
+        font-family: 'Bree Serif', serif;
+        font-size: 20px;
+    }
+
+    
+    
+    #lowwerSection span{
+        display: none;
+
+    }
+    
+    .bi-bi-pencil-fill,.bi-bi-trash,.bi-bi-eye,.bi-bi-plus-square{
+margin-left: 10px;
+    }
+
+}  
+
+
+#logo {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-image: url('../images/logo.jpg');
+  width: 260px;
+  height: 60px;
+}
+
+.header_index {
+  display: flex;
+  width: 100%;
+}
+
+.profileImage_index {
+  width: 80px;
+  margin-top: 10px;
+  height: 80px;
+
+  border-radius: 50%;
+  margin-right: 0;
+}
+
+.profileImageName_index {
+  display: flex;
+  right: 20px;
+  position: absolute;
+}
+
+.mainNav_index {
+  margin-left: 200px;
+
+  margin-bottom: 30px;
+
+
+}
+
+
+.MainNavUl_index {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.mainNav_index li {
+  margin: 0;
+  padding: 0;
+}
+
+.mainNav_index a {
+  display: block;
+  padding: 1rem;
+  color: black;
+  text-decoration: none;
+  font-family: 'Bree Serif', serif;
+
+  font-size: 36px;
+}
+
+
+#wrapper_index {
+  width: 100%;
+  height: 550px;
+  display: flex;
+
+}
+
+.menuIconSection_index{
+  display: none;
+}
+
+
+.redCircle_index {
+  position: absolute;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  top: 112px;
+  left: 450px;
+
+}
+
+.redCircle_index span {
+  color: white;
+  margin-left: 6px;
+  margin-bottom: 9px;
+  font-size: 16px;
+
+}
+
+.list-group {
+  width: 250px;
+}
+
+.list-group-item-action.active{
+  background-color: blue;
+}
+
+.parkingSection {
+  margin-left: 120px;
+}
+
+.SectionName {
+  font-family: 'Bree Serif', serif;
+  font-size: 28px;
+  margin-left: 40px;
+}
+
+.list-group a {
+  font-family: 'Bree Serif', serif;
+
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+}
+
+.list-group a span {
+  font-family: 'Bree Serif', serif;
+
+
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.bi-bi-pencile,.bi-eye,.bi-trash {
+  float: right;
+  margin-left: 5px;
+}
+
+.SideNav_index {
+
+  margin-left: 20px;
+}
+
+.SideNaveUl {
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.SideNav_index a {
+  display: block;
+  padding: 1rem;
+  color: black;
+  text-decoration: none;
+  font-family: 'Bree Serif', serif;
+
+  font-size: 36px;
+}
+
+.h1_index {
+  display: block;
+  font-family: 'Bree Serif', serif;
+  font-size: 36px;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+.mainNav_index li.selected {
+  background-color: blue;
+  color: white;
+}
+
+#footer_index {
+  height: 60px;
+  width: 100%;
+
+}
+
+#footer_index svg {
+  float: left;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.AiTitel {
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+
+}
+
+.list-groupAI {
+  margin-left: 30px;
+  width: 300px;
+  font-family: 'Bree Serif', serif;
+
+
+
+}
+
+#sectionA-list-park3-list,
+#sectionA-list-park6-list,
+#sectionB-list-park2-list,
+#sectionC-list-park4-list {
+  background-color: rgb(95, 249, 95);
+}
+
+#UserName {
+  font-family: 'Bree Serif', serif;
+  font-size: 24px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.blueCircle_index {
+  display: none;
+}
+
+
+.list-group-item-list-group-item-action.active{
+  background-color: blue;
+  color: white;
+}
+
+#searchSection{
+  width: 200px;
+  float: right;
+  margin-right: 200px;
+  margin-top: 0px;
+  margin-left: 5px;
+  font-family: 'Bree Serif', serif;
+}
+#mobileWrapper {
+  display: none;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#mobile_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileImage_mobile {
+  display: none;
+}
+
+#notificationIcon_index {
+  display: none;
+}
+
+#menuIconMobile_index {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header_index{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+  }
+  .main100{
+    display: none;
+  }
+#wrapper_index{
+  display: none;
+}
+
+  .menuIconSection{
+    width: 100%;
+  }
+
+  #sideMenu{
+    width: 100%;
+  }
+
+  .nav-item99{
+    width: 100%;
+  }
+
+
+
+
+  .profileImageName {
+    display: block;
+  }
+  .mainNav,
+  .h1_index
+  .greenCircle,
+  .alertIcon,
+  .redCircle,
+  #UserName {
+    display: none;
+  }
+
+  .profileImage_mobile {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+  }
+
+  .list-group {
+    width: 100%;
+  }
+
+  #notificationIcon99{
+    display: block;
+    margin-right: 110px;
+    margin-top: 0px;
+  }
+
+  #notificationIcon:hover {
+    cursor: pointer;
+    background-color: blue;
+
+  }
+
+  #menuIconMobile {
+    display: block;
+    margin-left: 5px;
+    margin-right:200px ;
+    
+  }
+
+ 
+
+  .blueCircle {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    top: 40px;
+    right: 100px;
+  }
+
+
+  .blueCircle span {
+    color: white;
+    font-family: 'Bree Serif', serif;
+
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  #sectionA-list-park3-list {
+    background-color: white;
+  }
+
+  #sectionA-list-park3-list:hover {
+    background-color: royalblue;
+  }
+
+
+  #sectionA-list-park3-list.active {
+    background-color: royalblue;
+  }
+
+
+
+
+
+
+
+  #mobileWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+  }
+
+  #logo {
+    background-image: url('../images/logo_mobile.jpg');
+    width: 133px;
+    height: 32px;
+    margin-top: 30px;
+
+
+  }
+
+
+
+
+  .list-group a span {
+    font-family: 'Bree Serif', serif;
+
+
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+
+  }
+
+  .profileImage_mobile {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .h1_mobile_list {
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    display: block;
+  }
+
+  .h1_mobile_list a {
+    font-size: 18px;
+  }
+
+
+  .text-muted {
+    color: slategrey;
+    font-size: 10px;
+    margin-left: 30px;
+    margin-right: 5px;
+    float: right;
+  }
+
+  .menuIconSection button{
+    margin-left:50px ;
+  }
+
+  
+
+  .menuIconSection{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #sideMenu{
+    display: none;
+  }
+  .profileImage_index {
+    width: 80px;
+    margin-top: 10px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 0;
+    display: none;
+}
+#footer_index {
+  position: absolute;
+  height: 60px;
+  bottom: 10px;
+  width: 100%;
+}
+}
